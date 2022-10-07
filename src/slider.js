@@ -71,3 +71,21 @@ function updateNavigationDot(index) {
   currentlyActive = navigation.querySelector(`[data-index="${index}"]`);
   currentlyActive.classList.add('active');
 }
+
+// play slides
+
+const play = document.querySelector('.play-slides');
+play.addEventListener('click', playSlideshow);
+let currentlyPlaying = false;
+let playing;
+
+function playSlideshow() {
+  if (currentlyPlaying) {
+    clearInterval(playing);
+    play.innerHTML = '<ion-icon name="play-outline"></ion-icon>';
+  } else {
+    playing = setInterval(slideRight, 2000);
+    play.innerHTML = '<ion-icon name="pause-outline"></ion-icon>';
+  }
+  currentlyPlaying = !currentlyPlaying;
+}

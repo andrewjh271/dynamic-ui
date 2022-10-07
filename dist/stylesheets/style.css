@@ -75,6 +75,7 @@ header {
   padding-top: 18px;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .navigation div {
   display: inline-block;
@@ -89,6 +90,20 @@ header {
 }
 .navigation .active {
   background-color: #485480;
+}
+.navigation .play-slides {
+  border: none;
+  background: none;
+}
+.navigation .play-slides:hover {
+  cursor: pointer;
+}
+.navigation .play-slides ion-icon {
+  width: 30px;
+  height: 30px;
+  top: 2px;
+  position: relative;
+  color: #485480;
 }
 
 /*# sourceMappingURL=style.css.map */
