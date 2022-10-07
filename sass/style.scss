@@ -19,41 +19,47 @@ header {
   z-index: 99;
 }
 
+// image slider
+
 .container {
   width: 100vw;
   height: 80vh;
   margin-top: 5vh;
   overflow: hidden;
   white-space: nowrap;
-}
-.container .frame {
-  position: relative;
-  height: 100%;
-}
-.container .photo-container {
-  height: 100%;
-  width: 100vw;
-  display: inline-block;
-  position: inherit;
-}
-.container .photo-container img {
-  max-width: 84%;
-  max-height: 100%;
-  display: block;
-  margin: auto;
+
+  .frame {
+    position: relative;
+    height: 100%;
+  }
+
+  .photo-container {
+    height: 100%;
+    width: 100vw;
+    display: inline-block;
+    position: inherit;
+
+    img {
+      max-width: 84%;
+      max-height: 100%;
+      display: block;
+      margin: auto;
+    }
+  }
 }
 
 .arrow {
   position: absolute;
   top: 48%;
-  width: 50px;
+  width:  50px;
   height: 50px;
   padding: 0 15px;
   z-index: 99;
-}
-.arrow:hover {
-  cursor: pointer;
-  color: gray;
+
+  &:hover {
+    cursor: pointer;
+    color: gray;
+  }
 }
 
 .left-arrow {
@@ -63,5 +69,3 @@ header {
 .right-arrow {
   right: 0;
 }
-
-/*# sourceMappingURL=style.css.map */
