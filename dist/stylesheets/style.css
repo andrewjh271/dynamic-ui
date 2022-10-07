@@ -29,6 +29,7 @@ header {
 .container .frame {
   position: relative;
   height: 100%;
+  transition: 0.7s;
 }
 .container .photo-container {
   height: 100%;
@@ -50,6 +51,8 @@ header {
   height: 50px;
   padding: 0 15px;
   z-index: 99;
+  color: #485480;
+  transition: 0.2s;
 }
 .arrow:hover {
   cursor: pointer;
@@ -62,6 +65,10 @@ header {
 
 .right-arrow {
   right: 0;
+}
+
+.flash {
+  color: #bfcaf3;
 }
 
 .navigation {

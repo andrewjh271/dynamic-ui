@@ -15,8 +15,12 @@ window.addEventListener('keydown', keydown);
 
 function keydown(e) {
   if(e.key === 'ArrowLeft') {
+    leftArrow.classList.add('flash');
+    setTimeout(() => leftArrow.classList.remove('flash'), 200);
     slideLeft();
   } else if(e.key === 'ArrowRight') {
+    rightArrow.classList.add('flash');
+    setTimeout(() => rightArrow.classList.remove('flash'), 200)
     slideRight();
   }
 }
