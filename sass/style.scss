@@ -69,3 +69,26 @@ header {
 .right-arrow {
   right: 0;
 }
+
+.navigation {
+  padding-top: 18px;
+  display: flex;
+  justify-content: center;
+
+  div {
+    display: inline-block;
+    margin: 5px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid #485480;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  .active {
+    background-color: #485480;
+  }
+}
