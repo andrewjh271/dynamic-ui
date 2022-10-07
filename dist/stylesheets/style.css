@@ -29,6 +29,7 @@ header {
 .container .frame {
   position: relative;
   height: 100%;
+  right: 0;
   transition: 0.7s;
 }
 .container .photo-container {
