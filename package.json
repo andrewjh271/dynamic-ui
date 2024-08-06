@@ -29,6 +29,6 @@
     "webpack-dev-server": "^4.11.1"
   },
   "dependencies": {
-    "@andrewjh271/menu": "^1.0.0"
+    "@andrewjh271/menu": "^2.0.1"
   }
 }
