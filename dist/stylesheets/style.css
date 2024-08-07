@@ -1058,6 +1058,7 @@ header {
 }
 .navigation div:hover {
   cursor: pointer;
+  border: 1px solid gray;
 }
 .navigation .active {
   background-color: #485480;
@@ -1075,6 +1076,9 @@ header {
   top: 2px;
   position: relative;
   color: #485480;
+}
+.navigation .play-slides ion-icon:hover {
+  color: gray;
 }
 
 /*# sourceMappingURL=style.css.map */

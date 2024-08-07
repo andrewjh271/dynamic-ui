@@ -96,6 +96,7 @@ header {
 
     &:hover {
       cursor: pointer;
+      border: 1px solid gray;
     }
   }
 
@@ -117,6 +118,10 @@ header {
       top: 2px;
       position: relative;
       color: #485480;
+
+      &:hover {
+        color: gray;
+      }
     }
   }
 }
