@@ -994,13 +994,13 @@ header {
   height: 80vh;
   margin-top: 5vh;
   overflow: hidden;
-  white-space: nowrap;
 }
 .container .frame {
   position: relative;
   height: 100%;
   right: 0;
   transition: 0.7s;
+  white-space: nowrap;
 }
 .container .photo-container {
   height: 100%;

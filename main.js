@@ -123,10 +123,10 @@ function updateNavigationDot(index) {
 // play slides
 
 const play = document.querySelector('.play-slides');
-play.addEventListener('click', playSlideshow);
+play.addEventListener('click', toggleSlideshow);
 let currentlyPlaying = false;
 let playing;
-function playSlideshow() {
+function toggleSlideshow() {
   if (currentlyPlaying) {
     clearInterval(playing);
     play.innerHTML = '<ion-icon name="play-outline"></ion-icon>';
